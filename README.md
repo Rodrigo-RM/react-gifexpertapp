@@ -19,8 +19,39 @@
 > GitHub: Desplegando la App en Github Pages
 
 - verificar github en equipo: > git --version
-- Ya instalado git, accesar y enlazar desde consola a Git con el proyecto:
+- Ya instalado git, configurar Git Global en mi equipo:
   - https://docs.github.com/en/enterprise/2.13/user/articles/setting-your-username-in-git
-- Enlace:
-  > git config --global user.name "Rodrigo-RM"
-  > git config --global user.email "rexcelsolutions@gmail.com"
+- Configurando: Name y Email:
+  - git config --global user.name "Rodrigo-RM"
+  - git config --global user.email "rexcelsolutions@gmail.com"
+
+> Creando Repositorio de Git
+
+- 1. git init
+- 2. git add .
+- 3. git commit -m "First commit GifExpert"
+- 4. renombrar carpeta "build" por "docs" :git puede desplegar aplicaciones desde build o docs
+- 5. por cambio de nombre de build: git commit -m "GifExpert: docs agregado"
+
+> Cargar APP en GitHub:
+
+- Crear Repositorio para la App: react-giftexpertapp
+- git remote add origin https://github.com/Rodrigo-RM/react-giftexpertapp.git
+- git branch -M main
+- git push -u origin main
+
+> Posible error de Git Aplicar los 2 y volver a git remote add origin....
+
+- git remote set-url origin https://github.com/Rodrigo-RM/react-giftexpertapp.git
+- git remote remove origin
+
+> en GitHUB:
+
+- Settings
+- GitHub Pages
+- branch: main /docs
+  - SAVE
+  * esperar que quede en verde el mensaje:
+  * Listo: Cuando indique:
+  * Your site is ready to be published at https://rodrigo-rm.github.io/react-giftexpertapp/
+  * luego dar click para ver la aplicación
