@@ -7,7 +7,7 @@
 
 > Creando un servidor LOCAL [https://www.npmjs.com/package/http-server]
 
-- En Windows consola como Administrador:
+- En Windows en consola como Adm:
   - npm install --global http-server
 
 > Ejecutar una App desde server Local
@@ -35,14 +35,14 @@
 
 > Cargar APP en GitHub:
 
-- Crear Repositorio para la App: react-giftexpertapp
-- git remote add origin https://github.com/Rodrigo-RM/react-giftexpertapp.git
+- Crear Repositorio para la App: react-gifexpertapp
+- git remote add origin https://github.com/Rodrigo-RM/react-gifexpertapp.git
 - git branch -M main
 - git push -u origin main
 
 > Posible error de Git Aplicar los 2 y volver a git remote add origin....
 
-- git remote set-url origin https://github.com/Rodrigo-RM/react-giftexpertapp.git
+- git remote set-url origin https://github.com/Rodrigo-RM/react-gifexpertapp.git
 - git remote remove origin
 
 > en GitHUB:
@@ -52,6 +52,6 @@
 - branch: main /docs
   - SAVE
   * esperar que quede en verde el mensaje:
-  * Listo: Cuando indique:
-  * Your site is ready to be published at https://rodrigo-rm.github.io/react-giftexpertapp/
+  * Esperar: Cuando indique: y Refrescar
+  * Your site is ready to be published at https://rodrigo-rm.github.io/react-gifexpertapp/
   * luego dar click para ver la aplicación
